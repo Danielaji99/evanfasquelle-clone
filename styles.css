@@ -1,0 +1,141 @@
+.h1-nav{
+    /* font-family: 'Great Vibes', cursive; */
+    display: flex;
+    font-size: 4rem;
+    margin-left: 20px;
+    font-family: 'Marck Script', cursive;
+   }
+
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between; 
+    position: sticky;
+}
+
+.socials-nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-self: flex-end;
+    gap: 10px;
+    padding-right: 10px;
+    font-size: 1.5rem;
+    margin-right: 20px;
+
+}
+
+.Middle{
+text-align: left;
+font-size: 4rem;
+max-width: 70%;
+/* font-family: 'Libre Baskerville', serif; */
+font-family: 'Cormorant Garamond', serif;
+}
+
+#layout{
+    display: grid;
+    grid-template-columns: 607px 607px;
+    grid-template-rows: 433px 433px 433px;
+    gap: 10px;
+}
+
+.item{
+    height: 433px;
+    width: 607px;
+    border-radius: 5%;
+    margin: 10px;
+    
+   
+}
+
+.red{
+    background-color:#C94348;
+    
+
+}
+.green{
+    background-color:#1f4a36 ;
+;
+}
+.blue{
+    background-color: #006edb;
+}
+.white{
+    background-color: #f0efea;
+}
+.black{
+    background-color: #2d3240;
+}
+
+.about{
+    background-color:  #1f1d1b;
+    color: white;
+    width: 100%;
+    padding-left: 0px;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-template-rows:70% 30%; 
+    
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.socials-about{
+    display: flex;
+    flex-direction: column;
+   padding-top:70% ;
+    list-style: none;
+    font-size: 2rem;
+}
+
+.about-about{
+    
+    padding-top: 10%;
+}
+.h1-about{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    
+    margin-left: 50px;
+    
+}
+.finals{
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+
+}
+.dev{
+    display: flex;
+    justify-self: flex-end;
+    font-size: 1.5rem;
+
+}
+img{
+    width: 65%;
+    margin: 18%;
+}
+
+hr{
+    padding: 0;
+    width: 100%;
+}
+.social-hr{
+width: 100%;
+height: 0;
+
+
+}
+ul{
+    list-style: none;
+}
+.resume{
+    padding-left: 40px;
+    padding-top: 40px;
+}
